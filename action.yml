@@ -1,5 +1,5 @@
-# Login to Azure subscription
-name: 'Azure Login'
+- name: Azure Login
+  uses: Azure/login@v2.2.0name: 'Azure Login'
 description: 'Authenticate to Azure and run your Azure CLI or Azure PowerShell based actions or scripts.'
 inputs:
   creds:
